@@ -54,16 +54,14 @@ class Flower {
   
  void bounce() {
   
-  if (x > width-r || x < r){
-    xDir *= -1;
-    
+  if (x > width-r || x < r) {
+    xDir *= - 1;
   }
   
   if (y > height-r || y < r) {
-    yDir *= -1;
-    
+    yDir *= - 1;
   }
-
  }  
+ 
   
 }
